@@ -88,4 +88,4 @@ stages:
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
 
-              StartupCommand: 'startup.txt
+              StartupCommand: 'startup.txt'
